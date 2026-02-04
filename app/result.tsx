@@ -55,7 +55,7 @@ export default function Result() {
           </Text>
         </View>
         <View style={styles.row}>
-          <Text style={styles.rowLabel}> ยอดจัด</Text>
+          <Text style={styles.rowLabel}> ยอดผ่อน</Text>
           <Text style={[styles.rowValue]}>
             {formatCurrency(Number(carPayment))} บาท
           </Text>
